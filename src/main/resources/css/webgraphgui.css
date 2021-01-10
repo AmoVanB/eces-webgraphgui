@@ -1,0 +1,183 @@
+html, body, svg {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hand-cursor:hover
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.graphContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: visible;
+
+}
+
+.flow-ul {
+    margin-bottom:15px;
+}
+
+.flow-ul li {
+    list-style-type: none;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+
+.columnClass {
+    margin: 5px;
+    padding: 15px;
+    width: 20%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    overflow: auto;
+    position: absolute;
+    min-height: 1px;
+}
+
+#debugColumn {
+    margin-top: 50px;
+    height:calc(60% - 55px);
+    width: 40%;
+}
+
+#infoColumn {
+    margin-left: calc(75% - 5px);
+    width: 25%;
+}
+
+#bottom-pane {
+    height: calc(40% - 5px);
+    position:relative;
+    padding: 15px;
+    top:60%;
+    width: calc(75% - 10px);
+    background-color: #FFFFFF;
+    overflow: auto;
+    margin-bottom:0;
+    margin-right: calc(25% + 10px);
+}
+
+#flow-table-placeholder {
+    font-size:smaller;
+    white-space: nowrap;
+}
+
+#graph-flow-table-placeholder {
+    white-space: nowrap;
+}
+
+.graphSelector {
+    margin-right: calc(25% + 10px);
+    padding: 7px;
+    top: 0;
+    right: 0;
+    position:absolute;
+    text-align:right;}
+
+.colorSelector {
+    margin-right: calc(25% + 10px);
+    padding: 7px;
+    top: 50px;
+    right: 0;
+    position:absolute;
+    text-align:right;
+}
+
+#dropdownMenu2 {
+    margin-bottom:10px;
+}
+
+#colorDropdown {
+    left:auto !important;
+    right:0;
+    top: calc(100% - 10px) !important;
+}
+
+#graphDropdown {
+    left:auto !important;
+    right:0;
+}
+
+#toggleRenderer {
+    margin: 7px;
+    margin-right: calc(25% + 160px);
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+#toggleDebug {
+    margin: 7px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#toggleDebugMode {
+    margin: 7px;
+    margin-right: calc(50% + 160px);
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.unclickable {
+    pointer-events: none;
+}
+
+.progress {
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+.progress-bar {
+    color:black;
+}
+
+#tum-logo {
+    width:70px;
+    margin:10px;
+}
+
+#lkn-logo {
+    width: 50px;
+    margin:10px;
+}
+
+h5 {
+    font-weight:bold;
+    font-size:larger;
+}
+
+#plot-placeholder {
+    width:100%;
+    height:200px;
+}
+
+.components-div {
+    margin-left:12px;
+}
+
+.component-div {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+ul {
+    padding-left:12px;
+}

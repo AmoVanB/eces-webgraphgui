@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebGraphGUI</title>
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css"> <!-- http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" -->
+    <link rel="stylesheet" href="/bootcards/bootcards-desktop.min.css"> <!-- http://cdnjs.cloudflare.com/ajax/libs/bootcards/1.1.1/css/bootcards-desktop.min.css -->
+    <link rel="stylesheet" href="/css/webgraphgui.css">
+    <link rel="stylesheet" href="css/circle.css">
+
+    <!-- inject:js -->
+    <script src="/js/jquery/jquery.min.js"></script> <!-- https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js -->
+    <script src="/js/flot/jquery.flot.js"></script>
+    <script src="/js/flot/jquery.flot.resize.js"></script>
+    <script src="/js/flot/jquery.flot.navigate.js"></script>
+    <script src="/js/flot/jquery.flot.axislabels.js"></script>
+    <script src="/bootstrap/bootstrap.min.js"></script> <!-- http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js -->
+    <script src="/bootcards/bootcards.min.js"></script> <!-- http://cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/js/bootcards.min.js -->
+    <script src="/js/vivagraph/dist/vivagraph.js"></script>
+    <script src="/js/webgraphgui.js"></script>
+</head>
+
+<body>
+  <div id="graphContainer" class="graphContainer">
+  </div>
+
+  <div class="well columnClass" id="debugColumn" style="display: none">
+      <h4 id="elementTypeHeader"> Debug Info </h4>
+      <hr>
+      <div id="output">
+      </div>
+  </div>
+
+  <button type="button" class="btn btn-default" id="toggleDebug">Display Communication Debug</button>
+
+  <button type="button" class="btn btn-default" id="toggleDebugMode">Turn On Visualization Debug</button>
+
+  <div class="graphSelector">
+      <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Graph Selector
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="graphDropdown">
+    </ul>
+      </div>
+  </div>
+
+  <div class="colorSelector">
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Color Selector
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" id="colorDropdown">
+    </ul>
+    </div>
+    <p id="coloringScheme"></p>
+  </div>
+
+  <button type="button" class="btn btn-default" id="toggleRenderer">Toggle Renderer</button>
+
+  <div class="well columnClass" id="infoColumn">
+      <div class="text-center">
+      <img src="tum.png" id="tum-logo" />
+      <img src="lkn.png" id="lkn-logo" />
+      </div>
+      <h4 id="clickedType">Clicked Element Info</h4>
+    <div id="infoHeader">
+      <p></p>
+    </div>
+    <hr>
+    <div id="entityInfo">
+      <p>Click node/edge to display info here.</p>
+    </div>
+      <hr>
+      <div id="flow-table-placeholder"></div>
+      <hr>
+    <div id="plot-placeholder"></div>
+  </div>
+
+  <div class="well" id="bottom-pane">
+      <h4>Graph Info</h4>
+      <div id="graphEntityInfo">
+          Graph entity info.
+      </div>
+      <hr>
+      <div id="graph-flow-table-placeholder">
+
+      </div>
+  </div>
+
+</body>
+
+</html>
