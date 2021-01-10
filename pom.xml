@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>WebGraphGUI</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1-SNAPSHOT</version>
 
     <description>Javascript-based Web GUI for visualizing the state of the graph library of the ECES framework. The GUI also displays info and metadata about other systems (e.g., network, routing, etc.).</description>
     <url>https://github.com/AmoVanB/eces-webgraphgui</url>
