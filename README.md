@@ -54,4 +54,4 @@ new WebGraphGuiSystem(controller, myColoringSys, 8080);
 
 The GUI automatically discovers and displays the systems registered to the same `controller`.
 
-See [tests](src/test) for other examples of how to start the interface.
+See [tests](src/test) and the [Chameleon network controller](https://github.com/AmoVanB/chameleon-controller) for other examples of how to start the interface.
