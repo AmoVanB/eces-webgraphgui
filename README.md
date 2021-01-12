@@ -3,6 +3,14 @@
 A Javascript web interface allowing to visualize the [graphs](https://github.com/AmoVanB/eces-graph) of a [network](https://github.com/AmoVanB/eces-network) within the [ECES](https://github.com/AmoVanB/eces-core) ecosystem.
 (The code is currently dirty and messy and should be refactored, but it works).
 
+The image below shows an example of the GUI running and displaying a fat tree topology.
+The queues in the network are colored according to the number of flows that are embedded at each queue (red being for the most number of flows).
+The right pane shows the flows embedded in the highlighted queue, the lower pane shows all the flows in the network.
+
+<p align="center">
+<img src="images/example.png">
+</p>
+
 ## Usage
 
 The project can be downloaded from maven central using:
